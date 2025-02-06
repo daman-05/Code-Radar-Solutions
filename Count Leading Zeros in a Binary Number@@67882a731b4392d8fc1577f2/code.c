@@ -14,5 +14,5 @@ int main() {
         a=a/2;
     }
     printf("%d",32-count);
-    return 0;
+    return 0;
 }
