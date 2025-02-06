@@ -6,12 +6,7 @@ char* welcome() {
 
 int main() {
     int a,b;
-    scanf("%f",&a);
-    scanf("%f",&b);
-    if(a>=b){
-        printf("True");
-    }else{
-        printf("False");
-    }
+    scanf("%d %d",&a,&b);
+    (a>=b)? printf("True"):printf("False");
     return 0;
 }
