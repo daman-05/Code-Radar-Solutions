@@ -5,16 +5,10 @@ char* welcome() {
 }
 
 int main() {
-    int n;
-    scanf("%d",&n);
-    while(n>>1){
-        n= n>>1;
-    }
-    if(n==1){
-        printf("Set");
-    }else{
-        printf("Not Set");
-    }
-    printf("%d", n);
+    int a,bin=0,rem=0,place=1,b;
+    scanf("%d",&a);
+
+    b=a>>31;
+    (b&1)?printf("Set"):printf("Not Set");
     return 0;
 }
