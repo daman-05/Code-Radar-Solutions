@@ -9,4 +9,4 @@ int main() {
     scanf("%d",&a);
     (a%5==0 && a%11==0)?printf("Divisible"):printf("Not Divisible");
     return 0;
-}i
+}
