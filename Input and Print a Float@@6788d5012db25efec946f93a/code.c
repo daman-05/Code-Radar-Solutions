@@ -6,7 +6,8 @@ char* welcome() {
 
 int main(){
     float f;
-    printf("Enter the floating point number ");
     scanf("%f", &f);
+    printf("You entered: %f");
     return 0;
 }
+
