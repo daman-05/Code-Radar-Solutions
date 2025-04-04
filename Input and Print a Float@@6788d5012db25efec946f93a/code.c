@@ -4,9 +4,9 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 
-int main() {
+int main(){
     float f;
-    scanf("%f",&f);
-    printf("You entered: %.2f",f);
+    printf("Enter the floating point number ");
+    scanf("%f", &f);
     return 0;
 }
