@@ -4,9 +4,9 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 
-int main() {
-    char ch;
-    scanf("%c",&ch);
-    printf("You entered: %c",ch);
+int main(){
+    char c;
+    scanf("%c", &c);
+    printf("You entered: %f", f)
     return 0;
 }
