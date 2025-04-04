@@ -4,16 +4,15 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 
-int main() {
-    char name[100];
+int main(){
+    char str[100];
     int age;
-    char hobby[100];
-    scanf("%s",&name);
-    scanf("%d",&age);
-    scanf("%s",&hobby);
-
-    printf("Name: %s\n", name);
-    printf("Age: %d\n", age);
-    printf("Hobby: %s", hobby);
+    char str2[100];
+    scanf("%s", &str);
+    scanf("%d", &age);
+    scanf("%s", $str2);
+    printf("Name: %s", str\n);
+    printf("Age: %d", age\n);
+    printf("Hobby: %s", str2);
     return 0;
 }
