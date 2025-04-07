@@ -9,7 +9,7 @@ int main(){
     scanf("%d", &a);
     scanf("%d", &b);
     if (a==b){
-        prinft("True");
+        printf("True");
     }else{
         printf("False");
     }
