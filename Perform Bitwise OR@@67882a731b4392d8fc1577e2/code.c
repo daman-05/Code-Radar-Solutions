@@ -4,9 +4,10 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 
-int main() {
+int main(){
     int a,b;
-    scanf("%d %d",&a,&b);
-    printf("%d", a|b );
+    scanf("%d %d", &a,&b);
+    int result = a|b;
+    printf("%d", int);
     return 0;
 }
