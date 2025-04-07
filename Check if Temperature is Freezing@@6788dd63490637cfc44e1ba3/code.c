@@ -9,8 +9,8 @@ int main(){
     scanf("%d", &temp);
     if (temp==0 && temp<0){
         printf("Freezing");
-    }else{
-        printf("Above Freezing");
+    }else if (temp>0){
+        printf("Above freezing");
     }
     return 0;
 }
