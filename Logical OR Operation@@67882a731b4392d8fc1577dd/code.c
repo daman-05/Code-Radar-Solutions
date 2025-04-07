@@ -13,5 +13,5 @@ int main() {
     }else{
         printf("False");
     }
-    return 1;
+    return 0;
 }
