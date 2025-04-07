@@ -7,6 +7,6 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    (a>=90)?printf("A"):(90>a&&a>=80)?printf("B"):(80>a&&a>=70)?printf("C"):(70>a&&a>=60)?printf("D"):printf("F");
+    (a>=90)? printf("A") : (80<=a<90)? printf("B") : (70<=a<80)? printf("C") : (60<=a<70)? printf("D") : printf("F");
     return 0;
 }
