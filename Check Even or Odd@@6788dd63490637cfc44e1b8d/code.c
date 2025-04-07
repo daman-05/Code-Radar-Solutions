@@ -4,9 +4,13 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 
-int main() {
+int main(){
     int a;
-    scanf("%d",&a);
-    (a%2==0)?printf("Even"):printf("Odd");
+    scanf("%d", &a);
+    if (a%2=0 && a!=0){
+        printf("Even");
+    }else{
+        printf("Odd");
+    }
     return 0;
 }
