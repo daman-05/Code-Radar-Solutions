@@ -4,11 +4,10 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 
-int main() {
+int main(){
     int a;
-    scanf("%d",&a);
-    int ans= a>0;
-    if(ans!=1){
+    scanf("%d", &a);
+    if (a!>0){
         printf("True");
     }else{
         printf("False");
