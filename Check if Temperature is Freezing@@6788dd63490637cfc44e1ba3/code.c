@@ -5,11 +5,11 @@ char* welcome() {
 }
 
 int main(){
-    int temp;
-    scanf("%d", &temp);
-    if (temp==0 && temp<0){
+    int a;
+    scanf("%d", &a);
+    if (a==0 && a<0){
         printf("Freezing");
-    }else if (temp>0){
+    }else if (a>0){
         printf("Above freezing");
     }
     return 0;
